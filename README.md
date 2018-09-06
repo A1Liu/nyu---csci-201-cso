@@ -4,7 +4,7 @@ My assignments, projects, programs, etc. from CSCI-UA 201 007 CSO at NYU. Also i
 ## Contents
 * [item1][item1]
 * [item2][item2 "hello"]
-* [Useful sources and links](#sources and links)
+* [Useful sources and links](#sources)
 
 # Item1
 
@@ -14,4 +14,4 @@ My assignments, projects, programs, etc. from CSCI-UA 201 007 CSO at NYU. Also i
 
 
 
-## Sources and Links <a name="sources and links"></a>
+## Sources and Links <a name="sources"></a>
