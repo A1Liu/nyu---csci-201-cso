@@ -4,7 +4,7 @@ My assignments, projects, programs, etc. from CSCI-UA 201 007 CSO at NYU. Also i
 <!-- ## Contents
 * [Learning C](#learn)
 * [Homework](#homework)
-* [Projects](#projects)
+* [Labs](#labs)
 * [Utilities](#utils)
 * [Useful Sources and Links](#sources) -->
 
@@ -15,9 +15,9 @@ The [*learn* folder](learn/) contains all the files that I used to learn the C p
 
 The [*hw* folder](hw/) contains all the documents for homework assigned in CSCI-201. Exercises are named "hwXX" where "XX" is a number.  
 
-## Projects <a name="projects"></a>
+## Labs <a name="labs"></a>
 
-The [*projects* folder](projects/) contains all the project folders for the projects assigned in CSCI-201. Each is summarized individually in the folder's [*README* file](projects/README.md), and each project folder contains its own README file describing the project.  
+The [*labs* folder](labs/) contains all the project folders for the labs assigned in CSCI-201. Each is summarized individually in the folder's [*README* file](labs/README.md), and each project folder contains its own README file describing the project.  
 
 ## Utilities <a name="utils"></a>
 
