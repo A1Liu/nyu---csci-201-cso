@@ -1,16 +1,23 @@
 # Computer Systems Organization
 My assignments, projects, programs, etc. from CSCI-UA 201 007 CSO at NYU. Also included are some files that I made while getting the hang of the C programming language.
 
-## Contents
+## Folder descriptions
 * [Learning the Ropes](#learnropes)
-* [item2](#item2)
+* [Projects](#projects)
+* [Homework](#homework)
+* [Utilities](#utils)
 * [Useful sources and links](#sources)
 
 # Learning the Ropes <a name="learnropes"></a>
 This folder, abbreviated as "learn", contains all the files that I used to learn the C programming language.
 
 
-# Item2 <a name="item2"></a>
+# Projects <a name="projects"></a>
+
+This folder contains all the project folders for the projects assigned in CSCI-201. Each is summarized in the folder's [README file](projects/README.md)
+
+# Homework <a name="homework"></a>
+# Utilities <a name="utils"></a>
 
 
 
