@@ -95,7 +95,7 @@ Good methods for obtaining help include
 2. Asking the mailing list.
 3. Asking another student.
 4. But ...  
-  <p style="font-size:18px;font-weight:bold">Your lab must be your own.</p>  
+  <span style="font-size:18px;font-weight:bold">Your lab must be your own.</span>  
   That is, each student must submit a unique lab. Naturally, simply changing comments, variable names, etc. does **not** produce a unique lab.  
 ### 7.4 Computer Language Used for Labs
 This course uses the C computer language.  
