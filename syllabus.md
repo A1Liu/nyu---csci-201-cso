@@ -1,4 +1,8 @@
 # CSCI-201 Syllabus
+The following is the syllabus for CSCI-201, Adapted from the "Administrivia" section of the [lecture notes](https://cs.nyu.edu/~gottlieb/courses/cso/class-notes.html).
+
+## Table of Contents
+*
 
 ## 1 Contact Information
 
@@ -46,54 +50,53 @@ Grades are based on the labs and exams; the weighting will be approximately as f
 |30%|Labs|
 |30%|Midterm|
 |40%|Final Exam|
-  
+
 ## 6 The Upper Left Board
-I use the upper left board for lab/homework assignments and announcements. I should never erase that board. Viewed as a file it is group readable (the group is those in the room), appendable by just me, and (re-)writable by no one. If you see me start to erase an announcement, please let me know.
+I use the upper left board for lab/homework assignments and announcements. I should never erase that board. Viewed as a file it is group readable (the group is those in the room), appendable by just me, and (re-)writable by no one. If you see me start to erase an announcement, please let me know.  
 
-I try very hard to remember to write all announcements on the upper left board and I am normally successful. If, during class, you see that I have forgotten to record something, please let me know. HOWEVER, even if I forgot and no one reminds me, the assignment has still been given.
+I try very hard to remember to write all announcements on the upper left board and I am normally successful. If, during class, you see that I have forgotten to record something, please let me know. **HOWEVER**, even if I forgot and no one reminds me, the assignment has still been given.  
 
-## 7 Homeworks and Labs
+## 7 Homework and Labs
 I make a distinction between homeworks and labs.
 
 Labs are
+* *Required.*
+* Due several lectures later (date given on assignment).
+* Announced in the notes and during class class. Details in NYU Classes with supplemental material on separate web pages. Your solution is submitted via NYU Classes.
+* Graded and form part of your final grade.
+* Penalized for lateness.
+* The penalty is 1 point per day up to 10 days; then 5 points per day.
+* This penalty is too mild—a one week late lab can be an A; two weeks late might be a C.
 
-Required.
-Due several lectures later (date given on assignment).
-Announced in the notes and during class class. Details in NYU Classes with supplemental material on separate web pages. Your solution is submitted via NYU Classes.
-Graded and form part of your final grade.
-Penalized for lateness.
-The penalty is 1 point per day up to 10 days; then 5 points per day.
-This penalty is too mild—a one week late lab can be an A; two weeks late might be a C.
 Homeworks are
+* Optional.
+* Due the beginning of two lectures later.
+* Not accepted late.
+* The assignment is given in the notes and NYU Classes; your solution is submitted via Classes.
+* Checked for completeness and graded 0/1/2.
+* Able to help, but not hurt, your final grade.
 
-Optional.
-Due the beginning of two lectures later.
-Not accepted late.
-The assignment is given in the notes and NYU Classes; your solution is submitted via Classes.
-Checked for completeness and graded 0/1/2.
-Able to help, but not hurt, your final grade.
 ### 7.1 Homework Numbering
-Homeworks are numbered by the class in which they are assigned. So any homework given today is homework #1. Even if I do not give homework today, any homework assigned next class would be homework #2. So the homework present in the notes for lecture #n is homework #n (even if I inadvertently forgot to write it to the upper left board).
-
+Homeworks are numbered by the class in which they are assigned. So any homework given today is homework #1. Even if I do not give homework today, any homework assigned next class would be homework #2. So the homework present in the notes for lecture #n is homework #n (even if I inadvertently forgot to write it to the upper left board).\n
 ### 7.2 Doing Labs on non-NYU Systems
-You may develop (i.e., write and test) lab assignments on any system you wish, e.g., your laptop. However, ...
+You may *develop* (i.e., write and test) lab assignments on any system you wish, e.g., your laptop. However, ...
 
-You are responsible for any non-nyu machine. I extend deadlines if the nyu machines are down, not if yours are. So you should back up on an nyu server any work done on your personal computers.
-You should test your assignments on the nyu systems, for this class that means courses2.cims.nyu.edu. More on how to do this later.
-If some confusion arises, I can (and do) believe dates on courses2 and friends. I can not believe dates on your laptop since you can change them backwards in time.
-In an ideal world, a program written in a high level language such as Python, Java, C, or C++ that works on one system would also work on any other system. Sadly, this ideal is not always achieved, despite marketing claims to the contrary. So, although you may develop your lab on any system, you must ensure that it runs on courses2, which the TAs will use when grading your labs.
-You submit your labs using NYU Classes.
+* You are responsible for any non-nyu machine. I extend deadlines if the nyu machines are down, not if yours are. So you should back up on an nyu server any work done on your personal computers.
+* You should test your assignments on the nyu systems, for this class that means <span style="background-color:pink">courses2.cims.nyu.edu</span>. More on how to do this later.
+If some confusion arises, I can (and do) believe dates on courses2 and friends. I can **not** believe dates on your laptop since you can change them backwards in time.
+* In an ideal world, a program written in a high level language such as Python, Java, C, or C++ that works on one system would also work on any other system. Sadly, this ideal is not always achieved, despite marketing claims to the contrary. So, although you may *develop* your lab on any system, you must ensure that it *runs* on courses2, which the TAs will use when grading your labs.
+You submit your labs using "NYU Classes".\n
 ### 7.3 Obtaining Help with the Labs
 Good methods for obtaining help include
 
-Asking me during office hours (see my home page for my hours).
-Asking the mailing list.
-Asking another student.
-But ...
-Your lab must be your own.
-That is, each student must submit a unique lab. Naturally, simply changing comments, variable names, etc. does not produce a unique lab.
+1. Asking me during office hours (see my home page for my hours).
+2. Asking the mailing list.
+3. Asking another student.
+4. But ...
+\t<span class = "big-deal">Your lab must be your own.</span>  
+\tThat is, each student must submit a unique lab. Naturally, simply changing comments, variable names, etc. does **not** produce a unique lab.\n
 ### 7.4 Computer Language Used for Labs
-This course uses the C computer language.
+This course uses the C computer language.\n
 
 ## 8 A Grade of Incomplete
 The rules for incompletes and grade changes are set by the school> and not the department or individual faculty member. The rules set by CAS can be found in <http://cas.nyu.edu/object/bulletin0608.ug.academicpolicies.html>, which states:
