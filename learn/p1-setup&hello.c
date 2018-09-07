@@ -1,7 +1,15 @@
-#include <stdio.h>
+// This is a comment. When C code is compiled, this is ignored.
 
+/* Comment block
+C files end in ".c".
+*/
+
+#include <stdio.h> // This imports the
+
+// Just like the main in java. Needs to return an int at the end.
 int main() {
-  printf("hello world!");
+  printf("hello world!");// Print function in C. Print to standard output
+  return 0;
 }
 
 

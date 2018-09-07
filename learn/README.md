@@ -2,6 +2,6 @@
 This folder contains files that I used to learn the C programming language.
 
 ## Contents
-|P#|Topic Name|Description|
+|P#|Name|Description|
 |-|-|-|
-|1|Setting up C and Hello World|Stuff|
+|1|Hello World|Stuff|
