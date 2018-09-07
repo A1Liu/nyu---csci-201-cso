@@ -1,16 +1,19 @@
 # CSCI-201 Syllabus
 
 ## 1 Contact Information
-email: my-last-name AT nyu DOT edu (best method)
-web: cs.nyu.edu/~gottlieb
-office: 60 Fifth Ave, Room 316
-office phone: 212 998 3344
+
+* email: my-last-name AT nyu DOT edu (best method)
+* web: cs.nyu.edu/~gottlieb
+* office: 60 Fifth Ave, Room 316
+* office phone: 212 998 3344
+
 ## 2 Course Web Page
 There is a web site for the course. You can find it from my home page, which is listed above, or from the department's home page.
 
-You can find these lecture notes on the course home page. Please let me know if you can't find them.
+* You can find these lecture notes on the course home page. Please let me know if you can't find them.
 The notes are updated as bugs are found or improvements made. As a result, I do not recommend printing the notes now (if at all).
-I will place markers at the end of each lecture after the lecture is given. For example, the Start Lecture #1 marker above can be thought of as End Lecture #0.
+* I will place markers at the end of each lecture after the lecture is given. For example, the "Start Lecture #1" marker above can be thought of as "End Lecture #0".
+
 ## 3 Textbook
 The course has two texts:  
 
@@ -20,24 +23,30 @@ The course has two texts:
 I own, like, and will use Kernighan and Richie (Richie is the creator of C). However, if you already own another C book, that is probably good enough.  
 
 ## 4 Email, and the Class Mailing List
-You should have all been automatically added to the mailing list for this course and should have received a test message from me.
-Mail to the list should be sent to OS-201-FA18-fadd@nyu.edu
-Membership on the list is Required; I assume that messages I send to the mailing list are read.
-If you want to send mail just to me, use my-last-name AT nyu DOT edu not the mailing list.
-Questions on the labs should go to the mailing list. You are encouraged to answer questions posed on the list as well. Note that replies are sent to the list.
-I will respond to all questions. If another student has answered the question before I get to it, I will confirm if the answer given is correct.
-Please use proper mailing list etiquette.
-Send plain text messages rather than (or at least in addition to) html.
-Use Reply to contribute to the current thread, but NOT to start another topic.
-If quoting a previous message, trim off irrelevant parts.
-Use a descriptive Subject: field when starting a new topic.
-Do not use one message to ask two unrelated questions.
-As you will see, when I respond to a message, I either place my reply after the original text or interspersed with it (rather than putting the reply at the top). This preference is most relevant for detailed questions that lead to serious conversations involving many messages. I find it quite useful when reviewing a serious conversations to have the entire conversation in chronological order.
+* You should have all been automatically added to the mailing list for this course and should have received a test message from me.
+* Mail to the list should be sent to OS-201-FA18-fadd@nyu.edu
+* Membership on the list is Required; I assume that messages I send to the mailing list are read.
+* If you want to send mail just to me, use my-last-name AT nyu DOT edu not the mailing list.
+* Questions on the labs should go to the mailing list. You are encouraged to answer questions posed on the list as well. Note that replies are sent to the list.
+* I will respond to all questions. If another student has answered the question before I get to it, I will confirm if the answer given is correct.
+* Please use proper mailing list etiquette.
+    * Send plain text messages rather than (or at least in addition to) html.
+    * Use Reply to contribute to the current thread, but NOT to start another topic.
+    * If quoting a previous message, trim off irrelevant parts.
+    * Use a descriptive Subject: field when starting a new topic.
+    * Do not use one message to ask two unrelated questions.
+* As you will see, when I respond to a message, I either place my reply after the original text or interspersed with it (rather than putting the reply at the top). This preference is most relevant for detailed questions that lead to serious conversations involving many messages. I find it quite useful when reviewing a serious conversations to have the entire conversation in chronological order.
 I believe you would also find it useful when reviewing for an exam.
-## 5 Grades
-Grades are based on the labs and exams; the weighting will be approximately
-30%\*LabAverage + 30%\*MidtermExam + 40%\*FinalExam (but see homeworks below).
 
+## 5 Grades
+Grades are based on the labs and exams; the weighting will be approximately as follows (but see homework below):
+
+|Percent|Part|
+|---|---|
+|30%|Labs|
+|30%|Midterm|
+|40%|Final Exam|
+  
 ## 6 The Upper Left Board
 I use the upper left board for lab/homework assignments and announcements. I should never erase that board. Viewed as a file it is group readable (the group is those in the room), appendable by just me, and (re-)writable by no one. If you see me start to erase an announcement, please let me know.
 
