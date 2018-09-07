@@ -9,19 +9,19 @@ My assignments, projects, programs, etc. from CSCI-UA 201 007 CSO at NYU. Also i
 * [Useful sources and links](#sources)
 
 # Learning C <a name="learn"></a>
-The [*learn* folder](learn/) contains all the files that I used to learn the C programming language. More information on its organization can be found in its [*README* file](learn/README.md).  
+The [*learn folder*](learn/) contains all the files that I used to learn the C programming language. More information on its organization can be found in its [*README file*](learn/README.md).  
 
 # Homework <a name="homework"></a>
 
-The [*hw* folder](hw/) contains all the documents for homework assigned in CSCI-201. Exercises are named "hwXX" where "XX" is a number.  
+The [*hw folder*](hw/) contains all the documents for homework assigned in CSCI-201. Exercises are named "hwXX" where "XX" is a number.  
 
 # Projects <a name="projects"></a>
 
-The [*projects* folder](projects/) contains all the project folders for the projects assigned in CSCI-201. Each is summarized individually in the folder's [*README* file](projects/README.md), and each project folder contains its own README file describing the project.  
+The [*projects folder*](projects/) contains all the project folders for the projects assigned in CSCI-201. Each is summarized individually in the folder's [*README file*](projects/README.md), and each project folder contains its own README file describing the project.  
 
 # Utilities <a name="utils"></a>
 
-The [*utils* folder](utils/) contains projects and files that I reuse often, i.e. a function to read from the command line. More details for each item it contains can be found in its [*README* file](utils/README.md).
+The [*utils folder*](utils/) contains projects and files that I reuse often, i.e. a function to read from the command line. More details for each item it contains can be found in its [*README file*](utils/README.md).
 
 ## Sources and Links <a name="sources"></a>
 * [Course Page][link1] - The webpage that contains all of the relevant course information.
