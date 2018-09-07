@@ -3,7 +3,7 @@ The following is the syllabus for CSCI-201, Adapted from the "Administrivia" sec
 
 ## 1 Contact Information
 
-* email: my-last-name AT nyu DOT edu (best method)
+* email: gottlieb@nyu.edu (best method)
 * web: https://cs.nyu.edu/~gottlieb
 * office: 60 Fifth Ave, Room 316
 * office phone: 212 998 3344
@@ -27,7 +27,7 @@ I own, like, and will use Kernighan and Richie (Richie is the creator of C). How
 * You should have all been automatically added to the mailing list for this course and should have received a test message from me.
 * Mail to the list should be sent to OS-201-FA18-fadd@nyu.edu
 * Membership on the list is Required; I assume that messages I send to the mailing list are read.
-* If you want to send mail just to me, use my-last-name AT nyu DOT edu not the mailing list.
+* If you want to send mail just to me, use gottlieb@nyu.edu not the mailing list.
 * Questions on the labs should go to the mailing list. You are encouraged to answer questions posed on the list as well. Note that replies are sent to the list.
 * I will respond to all questions. If another student has answered the question before I get to it, I will confirm if the answer given is correct.
 * Please use proper mailing list etiquette.
