@@ -5,11 +5,11 @@ The following is the syllabus for CSCI-201, Adapted from the "Administrivia" sec
 *
 
 ## 1 Contact Information
-|-|-|
-|email| my-last-name AT nyu DOT edu (best method)|
-|web|cs.nyu.edu/~gottlieb|
-|office|60 Fifth Ave, Room 316|
-|office phone|212 998 3344|
+
+* email: my-last-name AT nyu DOT edu (best method)
+* web: cs.nyu.edu/~gottlieb
+* office: 60 Fifth Ave, Room 316
+* office phone: 212 998 3344
 
 ## 2 Course Web Page
 There is a web site for the course. You can find it from my home page, which is listed above, or from the department's home page.
