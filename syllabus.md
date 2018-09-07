@@ -5,7 +5,7 @@ The following is the syllabus for CSCI-201, Adapted from the "Administrivia" sec
 *
 
 ## 1 Contact Information
-
+|-|-|
 |email| my-last-name AT nyu DOT edu (best method)|
 |web|cs.nyu.edu/~gottlieb|
 |office|60 Fifth Ave, Room 316|
@@ -143,5 +143,5 @@ This email from the assistant director, describes the policy.
   Assistant Director, Computer Science
   Courant Institute of Mathematical Sciences
 </pre>
-  
+
 **Remark:** The chapter/section numbers for the material on C, agree with Kernighan and Plauger. However, the material is quite standard so, as mentioned before, if you already own a C book that you like, it should be fine.
