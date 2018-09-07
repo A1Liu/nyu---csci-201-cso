@@ -77,27 +77,28 @@ Homeworks are
 * Able to help, but not hurt, your final grade.
 
 ### 7.1 Homework Numbering
-Homeworks are numbered by the class in which they are assigned. So any homework given today is homework #1. Even if I do not give homework today, any homework assigned next class would be homework #2. So the homework present in the notes for lecture #n is homework #n (even if I inadvertently forgot to write it to the upper left board).\n
+Homeworks are numbered by the class in which they are assigned. So any homework given today is homework #1. Even if I do not give homework today, any homework assigned next class would be homework #2. So the homework present in the notes for lecture #n is homework #n (even if I inadvertently forgot to write it to the upper left board).  
+
 ### 7.2 Doing Labs on non-NYU Systems
-You may *develop* (i.e., write and test) lab assignments on any system you wish, e.g., your laptop. However, ...
+You may *develop* (i.e., write and test) lab assignments on any system you wish, e.g., your laptop. However...
 
 * You are responsible for any non-nyu machine. I extend deadlines if the nyu machines are down, not if yours are. So you should back up on an nyu server any work done on your personal computers.
 * You should test your assignments on the nyu systems, for this class that means <span style="background-color:pink">courses2.cims.nyu.edu</span>. More on how to do this later.
 If some confusion arises, I can (and do) believe dates on courses2 and friends. I can **not** believe dates on your laptop since you can change them backwards in time.
 * In an ideal world, a program written in a high level language such as Python, Java, C, or C++ that works on one system would also work on any other system. Sadly, this ideal is not always achieved, despite marketing claims to the contrary. So, although you may *develop* your lab on any system, you must ensure that it *runs* on courses2, which the TAs will use when grading your labs.
-You submit your labs using "NYU Classes".\n
+You submit your labs using "NYU Classes".  
+
 ### 7.3 Obtaining Help with the Labs
-Good methods for obtaining help include
+Good methods for obtaining help include  
 
 1. Asking me during office hours (see my home page for my hours).
 2. Asking the mailing list.
 3. Asking another student.
-4. But ...
-\t<span class = "big-deal">Your lab must be your own.</span>  
-\tThat is, each student must submit a unique lab. Naturally, simply changing comments, variable names, etc. does **not** produce a unique lab.\n
+4. But ...  
+  <span class = "big-deal">Your lab must be your own.</span>  
+  That is, each student must submit a unique lab. Naturally, simply changing comments, variable names, etc. does **not** produce a unique lab.  
 ### 7.4 Computer Language Used for Labs
-This course uses the C computer language.\n
-
+This course uses the C computer language.  
 ## 8 A Grade of Incomplete
 The rules for incompletes and grade changes are set by the school> and not the department or individual faculty member. The rules set by CAS can be found in <http://cas.nyu.edu/object/bulletin0608.ug.academicpolicies.html>, which states:
 
