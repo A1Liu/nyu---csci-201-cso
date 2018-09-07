@@ -1,9 +1,6 @@
 # CSCI-201 Syllabus
 The following is the syllabus for CSCI-201, Adapted from the "Administrivia" section of the [lecture notes](https://cs.nyu.edu/~gottlieb/courses/cso/class-notes.html).
 
-## Table of Contents
-*
-
 ## 1 Contact Information
 
 * email: my-last-name AT nyu DOT edu (best method)
