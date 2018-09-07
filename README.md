@@ -1,5 +1,5 @@
 # Computer Systems Organization
-My assignments, projects, programs, etc. from CSCI-UA 201 007 CSO at NYU. Also included are some files that I made while getting the hang of the C programming language.
+My assignments, projects, programs, etc. from CSCI-UA 201 007 CSO at NYU. Also included are some files that I made while getting the hang of the C programming language.  
 
 ## Folder descriptions
 * [Learning the Ropes](#learnropes)
@@ -9,27 +9,24 @@ My assignments, projects, programs, etc. from CSCI-UA 201 007 CSO at NYU. Also i
 * [Useful sources and links](#sources)
 
 # Learning the Ropes <a name="learnropes"></a>
-This folder, abbreviated as "learn", contains all the files that I used to learn the C programming language.
-
+This folder, abbreviated as "learn", contains all the files that I used to learn the C programming language.  
 
 # Projects <a name="projects"></a>
 
-The [*projects* folder](projects/) contains all the project folders for the projects assigned in CSCI-201. Each is summarized individually in the folder's [README file](projects/README.md), and each project folder contains its own README file describing the project.
+The [*projects* folder](projects/) contains all the project folders for the projects assigned in CSCI-201. Each is summarized individually in the folder's [README file](projects/README.md), and each project folder contains its own README file describing the project.  
 
 # Homework <a name="homework"></a>
 
-The [*hw*](hw/) folder contains all the documents for homework assigned in CSCI-201.
+The [*hw* folder](hw/) contains all the documents for homework assigned in CSCI-201. Exercises are named "hwXX" where "XX" is a number.  
 
 # Utilities <a name="utils"></a>
 
-
+The [*utils* folder](utils/) contains projects and files that I reuse often, i.e. a function to read from the command line. More details for each item it contains can be found in its [README file](utils/README.md).
 
 ## Sources and Links <a name="sources"></a>
 * [Course Page][link1] - The webpage that contains all of the relevant course information.
 * [Lecture Notes][link2] - The webpage that contains all of the lecture notes (in one HTML file)
 * *[The C Programming Language][link3]* - Link to a PDF of the book "The C Programming Language" by Kernighan
-
-
 
 [link1]: https://cs.nyu.edu/~gottlieb/courses/cso/
 [link2]: https://cs.nyu.edu/~gottlieb/courses/cso/class-notes.html
