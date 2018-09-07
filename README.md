@@ -14,9 +14,12 @@ This folder, abbreviated as "learn", contains all the files that I used to learn
 
 # Projects <a name="projects"></a>
 
-This folder contains all the project folders for the projects assigned in CSCI-201. Each is summarized in the folder's [README file](projects/README.md)
+The [*projects* folder](projects/) contains all the project folders for the projects assigned in CSCI-201. Each is summarized individually in the folder's [README file](projects/README.md), and each project folder contains its own README file describing the project.
 
 # Homework <a name="homework"></a>
+
+The [*hw*](hw/) folder contains all the documents for homework assigned in CSCI-201.
+
 # Utilities <a name="utils"></a>
 
 
