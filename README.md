@@ -3,21 +3,21 @@ My assignments, projects, programs, etc. from CSCI-UA 201 007 CSO at NYU. Also i
 
 ## Contents
 * [Learning C](#learn)
-* [Projects](#projects)
 * [Homework](#homework)
+* [Projects](#projects)
 * [Utilities](#utils)
 * [Useful sources and links](#sources)
 
 # Learning C <a name="learn"></a>
 The [*learn* folder](learn/) contains all the files that I used to learn the C programming language. More information on its organization can be found in its [*README* file](learn/README.md).  
 
-# Projects <a name="projects"></a>
-
-The [*projects* folder](projects/) contains all the project folders for the projects assigned in CSCI-201. Each is summarized individually in the folder's [*README* file](projects/README.md), and each project folder contains its own README file describing the project.  
-
 # Homework <a name="homework"></a>
 
 The [*hw* folder](hw/) contains all the documents for homework assigned in CSCI-201. Exercises are named "hwXX" where "XX" is a number.  
+
+# Projects <a name="projects"></a>
+
+The [*projects* folder](projects/) contains all the project folders for the projects assigned in CSCI-201. Each is summarized individually in the folder's [*README* file](projects/README.md), and each project folder contains its own README file describing the project.  
 
 # Utilities <a name="utils"></a>
 
