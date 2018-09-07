@@ -95,20 +95,20 @@ Good methods for obtaining help include
 2. Asking the mailing list.
 3. Asking another student.
 4. But ...  
-  <span style="font-size: 14px; font-weight: bold;">Your lab must be your own.</span>  
+  **Your lab must be your own.**  
   That is, each student must submit a unique lab. Naturally, simply changing comments, variable names, etc. does **not** produce a unique lab.  
 ### 7.4 Computer Language Used for Labs
 This course uses the C computer language.  
 ## 8 A Grade of Incomplete
-The rules for incompletes and grade changes are set by the school> and not the department or individual faculty member. The rules set by CAS can be found in <http://cas.nyu.edu/object/bulletin0608.ug.academicpolicies.html>, which states:
+The rules for incompletes and grade changes are set by the school> and not the department or individual faculty member. The rules set by CAS can be found in <http://cas.nyu.edu/object/bulletin0608.ug.academicpolicies.html>, which states:  
 
-The grade of I (Incomplete) is a temporary grade that indicates that the student has, for good reason, not completed all of the course work but that there is the possibility that the student will eventually pass the course when all of the requirements have been completed. A student must ask the instructor for a grade of I, present documented evidence of illness or the equivalent, and clarify the remaining course requirements with the instructor.
+The grade of I (Incomplete) is a temporary grade that indicates that the student has, for good reason, not completed all of the course work but that there is the possibility that the student will eventually pass the course when all of the requirements have been completed. A student must ask the instructor for a grade of I, present documented evidence of illness or the equivalent, and clarify the remaining course requirements with the instructor.  
 
-The incomplete grade is not awarded automatically. It is not used when there is no possibility that the student will eventually pass the course. If the course work is not completed after the statutory time for making up incompletes has elapsed, the temporary grade of I shall become an F and will be computed in the student's grade point average.
+The incomplete grade is not awarded automatically. It is not used when there is no possibility that the student will eventually pass the course. If the course work is not completed after the statutory time for making up incompletes has elapsed, the temporary grade of I shall become an F and will be computed in the student's grade point average.  
 
-All work missed in the fall term must be made up by the end of the following spring term. All work missed in the spring term or in a summer session must be made up by the end of the following fall term. Students who are out of attendance in the semester following the one in which the course was taken have one year to complete the work. Students should contact the College Advising Center for an Extension of Incomplete Form, which must be approved by the instructor. Extensions of these time limits are rarely granted.
+All work missed in the fall term must be made up by the end of the following spring term. All work missed in the spring term or in a summer session must be made up by the end of the following fall term. Students who are out of attendance in the semester following the one in which the course was taken have one year to complete the work. Students should contact the College Advising Center for an Extension of Incomplete Form, which must be approved by the instructor. Extensions of these time limits are rarely granted.  
 
-Once a final (i.e., non-incomplete) grade has been submitted by the instructor and recorded on the transcript, the final grade cannot be changed by turning in additional course work.
+Once a final (i.e., non-incomplete) grade has been submitted by the instructor and recorded on the transcript, the final grade cannot be changed by turning in additional course work.  
 
 ## 9 Academic Integrity Policy
 This email from the assistant director, describes the policy.
@@ -143,4 +143,5 @@ This email from the assistant director, describes the policy.
   Assistant Director, Computer Science
   Courant Institute of Mathematical Sciences
 </pre>
+  
 **Remark:** The chapter/section numbers for the material on C, agree with Kernighan and Plauger. However, the material is quite standard so, as mentioned before, if you already own a C book that you like, it should be fine.
