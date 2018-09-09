@@ -21,7 +21,7 @@ int main() {
 
 #define A 12
 
-// Declare functions These are called forwards declarations
+// Declare functions These are called forward declarations
 int myfunc(int data1, char data2, double data3, short data4, long data5);
 void myfunc2(char array1[], int array2[]);
 void myfunc3(void);
