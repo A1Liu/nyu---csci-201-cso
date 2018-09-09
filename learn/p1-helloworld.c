@@ -4,7 +4,7 @@
 C files end in ".c".
 */
 
-#include <stdio.h> // This imports the
+#include <stdio.h> // This imports the standard io library
 
 // Just like the main in java. Needs to return an int at the end.
 int main() {
