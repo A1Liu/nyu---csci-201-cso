@@ -54,12 +54,12 @@ I use the upper left board for lab/homework assignments and announcements. I sho
 I try very hard to remember to write all announcements on the upper left board and I am normally successful. If, during class, you see that I have forgotten to record something, please let me know. **HOWEVER**, even if I forgot and no one reminds me, the assignment has still been given.  
 
 ## 7 Homework and Labs
-I make a distinction between homeworks and labs.
+I make a distinction between homework and labs.
 
 Labs are
 * *Required.*
 * Due several lectures later (date given on assignment).
-* Announced in the notes and during class class. Details in NYU Classes with supplemental material on separate web pages. Your solution is submitted via NYU Classes.
+* Announced in the notes and during class. Details in NYU Classes with supplemental material on separate web pages. Your solution is submitted via NYU Classes.
 * Graded and form part of your final grade.
 * Penalized for lateness.
 * The penalty is 1 point per day up to 10 days; then 5 points per day.

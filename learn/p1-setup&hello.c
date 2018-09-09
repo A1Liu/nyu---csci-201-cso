@@ -13,6 +13,9 @@ int main() {
 }
 
 
+// To run the program, first compile it by typing gcc p1-setup&hello.c in terminal (You need to change the working directory if you haven't already so that
+// your working directory is the same as the location of this file)
+// Then run the file that it created. If the file is called "file1", then type ./file1
 
 #include <stdio.h>
 
