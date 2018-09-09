@@ -36,6 +36,8 @@ int prgrm2() {
 
 //Write a program that prints its input one word per line.
 
+//#include <stdio.h>
+
 #define STOP_CHARACTER '\n'
 
 int prgrm3() {
