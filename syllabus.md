@@ -54,7 +54,7 @@ I use the upper left board for lab/homework assignments and announcements. I sho
 I try very hard to remember to write all announcements on the upper left board and I am normally successful. If, during class, you see that I have forgotten to record something, please let me know. **HOWEVER**, even if I forgot and no one reminds me, the assignment has still been given.  
 
 ## 7 Homework and Labs
-I make a distinction between homework and labs.
+I make a distinction between homework and labs.  
 
 Labs are
 * *Required.*
