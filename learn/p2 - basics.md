@@ -6,7 +6,10 @@ C has very few primitive data types:
 
 |Name|Example|Description|
 |-|-|-|
-|int|`int c = 2;`|Integer|
+|int|`int i = 2;`|Integer|
+|char|`char c = 'a';`|Character|
+|float|`float f = 'a';`|Floating point number|
+|double|`double d = 'a';`|Double-precise floating point number|
 
 ### Machine-Dependent Features of Primitives
 
@@ -25,7 +28,10 @@ int main() {
   return 0;
 }
 ```
+
 ## Basic Operators
+
+
 
 ### More Operators
 
