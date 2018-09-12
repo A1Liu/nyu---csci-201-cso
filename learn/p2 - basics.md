@@ -8,13 +8,24 @@ C has very few primitive data types:
 |-|-|-|
 |int|`int i = 2;`|Integer|
 |char|`char c = 'a';`|Character|
-|float|`float f = 'a';`|Floating point number|
-|double|`double d = 'a';`|Double-precise floating point number|
+|float|`float f = 1.5;`|Floating point number|
+|double|`double d = 1.1;`|Double-precise floating point number|
+
+It also has a few qualifiers that affect the size of these types in memory:
+
+|Name|Goes With|Description|
+|-|-|
+|short|int|smaller version of the int (can be written `short int` or just 'short')|
+|long|int, double|larger version of the int and larger version of the double (int version can be written as `long int` or just `long`)|
+|signed|int,char|Makes characters have values from -128 to 127|
+|unsigned|int,char|Ints can't be negative, char goes from 0 to 255|
+
 
 ### Machine-Dependent Features of Primitives
+Size of int, long, and short.
 
-## Variables, Values, and Addresses
-
+## Constants and Variables
+Variables hold values.
 
 ```C
 int main() {
@@ -34,5 +45,7 @@ int main() {
 
 
 ### More Operators
+
+#### Addresses vs Values
 
 ### Precedence
