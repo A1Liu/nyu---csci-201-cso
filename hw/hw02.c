@@ -85,17 +85,21 @@ void squeeze(char s1[], char s2[]) {
 
 //Homework: 2-10. Rewrite the function lower(), which converts upper case letters to lower case with a conditional expression instead of if-else.
 
-void lower(char s[]) {
-  int i;
-  for(i = 0; s[i] != '\0'; i++) {
-      s[i] = s[i] + (s[i] >= 'A' || s[i] <= 'Z')*('a' - 'A');
+void lowerString(char s[]) {
+  for(int i = 0; s[i] != '\0'; i++) {
+      s[i] = lower(s[i]);
   }
 }
 
+char lower(char c) {
+  // return c + (c >= 'A' && c <= 'Z')*('a' - 'A');
+  return c >= 'A' && c <= 'Z' ? c + 'a' - 'A' : c;
+}
+
 int main() {
-  // char s1[] = "awWd2Dns";
-  // lower(s1);
-  // printf("%s\n",s1);
-  int a = 1 > 2;
-  printf("%d", a);
+  char s1[] = "awWd2Dns";
+  char s2 = 'a';
+  lower(s1);
+  printf("%s\n",s1);
+  printf("%c\n",lower(s2));
 }
