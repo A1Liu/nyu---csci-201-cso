@@ -15,7 +15,7 @@ It also has a few qualifiers that affect the size of these types in memory:
 
 |Name|Goes With|Description|
 |-|-|
-|short|int|smaller version of the int (can be written `short int` or just 'short')|
+|short|int|smaller version of the int (can be written `short int` or just `short`)|
 |long|int, double|larger version of the int and larger version of the double (int version can be written as `long int` or just `long`)|
 |signed|int,char|Makes characters have values from -128 to 127|
 |unsigned|int,char|Ints can't be negative, char goes from 0 to 255|
@@ -26,6 +26,8 @@ Size of int, long, and short.
 
 ## Constants and Variables
 Variables hold values.
+
+x is an lvalue (address or location in memory) -- object that can store something. x++ is an rvalue (right of the equal sign). It has a value but you can't put a value into it.
 
 ```C
 int main() {
@@ -47,6 +49,7 @@ int main() {
 ### More Operators
 
 #### Addresses vs Values
+
 
 ### Precedence
 
