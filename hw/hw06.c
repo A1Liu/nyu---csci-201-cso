@@ -1,3 +1,6 @@
+
+#include <stdio.h>
+
 // Homework: 5-5 (first part). Write a version of the library functions
 
 //     char *strncpy(char *s, char *t, int n)
@@ -7,7 +10,14 @@
 
 char *strncpy(char *s, char *t, int n) {
 	char *temp;
-	for (temp = s; n > 0; n--) {
-		*s++ = *t++;
-	}
+	for (temp = s; n > 0; n--) *s++ = *t++;
+	*s = '\0';
+	return temp;
+}
+
+int main() {
+	char s[11], *t;
+	t = "123456789012345678901234567890";
+
+	printf("\n%s\n",strncpy(s,t,10));
 }

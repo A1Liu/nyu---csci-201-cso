@@ -84,3 +84,7 @@ int main() {
 ||<<= >>=|Assignment by bitwise left shift and right shift|
 ||&= ^= \|=|Assignment by bitwise AND, XOR, and OR|
 |15|,|Comma|Left-to-right|
+
+1. ↑ The operand of sizeof can't be a type cast: the expression sizeof (int) * p is unambiguously interpreted as (sizeof(int)) \* p, but not sizeof((int)\*p).
+2. ↑ Fictional precedence level, see Notes below
+3. ↑ The expression in the middle of the conditional operator (between ? and :) is parsed as if parenthesized: its precedence relative to ?: is ignored.
