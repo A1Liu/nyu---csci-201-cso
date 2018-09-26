@@ -74,7 +74,7 @@ int main() {
 |7|== !=|For relational = and ≠ respectively|
 |8|&|Bitwise AND|
 |9|^|Bitwise XOR (exclusive or)|
-|10|||Bitwise OR (inclusive or)|
+|10|\||Bitwise OR (inclusive or)|
 |11|&&|Logical AND|
 |12||||Logical OR|
 |13[note 2]|?:|Ternary conditional[note 3]|Right-to-Left|
