@@ -8,16 +8,17 @@
 // This copies at most n characters from t to s. This code is not scary like other copies
 // since the user of the routine can simply declare s to have space for n characters.
 
-char *strncpy(char *s, char *t, int n) {
+char *mystrncpy(char *s, char *t, int n) {
 	char *temp;
-	for (temp = s; n > 0; n--) *s++ = *t++;
-	*s = '\0';
+	for (temp = s; n > 0 && (*s++ = *t++); n--) ;
+	if (n==0) *s = '\0';
 	return temp;
 }
 
 int main() {
-	char s[11], *t;
-	t = "123456789012345678901234567890";
-
-	printf("\n%s\n",strncpy(s,t,10));
+	char s[1], *t;
+	t = "12345678901234567890123456789012345678901234567890123456789012345678901234567890";
+	int a[2];
+	printf("%d",*(a+12));//weird behavior with pointers and arrays
+	printf("\n%s\n",mystrncpy(s,t,50));
 }
