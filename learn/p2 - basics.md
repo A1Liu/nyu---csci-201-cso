@@ -76,7 +76,7 @@ int main() {
 |9|^|Bitwise XOR (exclusive or)|
 |10|\||Bitwise OR (inclusive or)|
 |11|&&|Logical AND|
-|12||||Logical OR|
+|12|\|\||Logical OR|
 |13[note 2]|?:|Ternary conditional[note 3]|Right-to-Left|
 |14|=|Simple assignment|
 ||+= -=|Assignment by sum and difference|
