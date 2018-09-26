@@ -82,5 +82,5 @@ int main() {
 ||+= -=|Assignment by sum and difference|
 ||*= /= %=|Assignment by product, quotient, and remainder|
 ||<<= >>=|Assignment by bitwise left shift and right shift|
-||&= ^= |=|Assignment by bitwise AND, XOR, and OR|
+||&= ^= \|=|Assignment by bitwise AND, XOR, and OR|
 |15|,|Comma|Left-to-right|
