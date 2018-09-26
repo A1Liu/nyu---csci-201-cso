@@ -6,6 +6,7 @@ labname = 'lab1'
 README = 'README.md'
 ASSIGN = 'assign.md'
 MAIN = 'main.c'
+TEMPLATE = 'template'
 
 def getLines(file, dirname = None):
 	if dirname is not None:
@@ -25,7 +26,7 @@ def mkfile(file, lines, dirname = None):
 filedir = dirname(abspath(__file__))
 labdir = join(filedir,labname)
 srcdir = join(labdir,'src')
-tempdir = join(filedir,'template')
+tempdir = join(filedir,TEMPLATE)
 
 readme_text = getLines(README,tempdir)
 assign_text = getLines(ASSIGN,tempdir)
