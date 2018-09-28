@@ -39,6 +39,71 @@ Stop when you reach generation `numGen` and print the resulting
 
 */
 
+#include <stdio.h>
+#include <ctype.h>
+#define ARGCOUNT 2
+#define ERROR_CODE 2
+#define BUFSIZE 100
+char buf[BUFSIZE];
+int  bufp = 0;
+
+int  getch(void);
+void ungetch(int);
+int getint(int *pn);
+void nextGen(int n, A[n][n]);
+int countNeighbors(int n, int A[n][n], int r, int c);
+void printMatrix(int n, int A[n][n]);
+
 int main(int argc, char *argv[argc]) {
+	int data[3][3];
 	return 0;
+}
+
+void nextGen() {
+
+}
+
+int countNeighbors(int n, int A[n][n], int r, int c) {// Count neighbors of cell at A[r][c] given r and c
+
+}
+
+void printMatrix(int n, int A[n][n]) {
+
+}
+
+int getch(void) {
+	return (bufp>0) ? buf[--bufp] : getchar();
+}
+
+void ungetch(int c) {
+	if (bufp >= BUFSIZE)
+		printf("ungetch: too many chars\n");
+	else
+		buf[bufp++] = c;
+}
+
+int getint(int *pn) {// pn holds the data
+	int c, sign;
+	while (isspace(c=getch())) ; // Move to first non-space character
+	if (!isdigit(c) && c!=EOF && c!='+' && c!='-') {// If we're getting something that's a letter or something weird, put it back and return 0
+		ungetch(c);
+		return 0;
+	}
+
+	sign = (c=='-') ? -1 : 1; // Whether to be negative or positive
+	if (c=='+' || c=='-') {
+		c = getch();
+		if (!isdigit(c)) {
+			ungetch(c);
+			ungetch(sign == -1 ? '-' : '+');
+			return 0;
+		}
+	}// if it's a sign
+
+	 for (*pn = 0; isdigit(c); c=getch())
+	 	*pn = 10 * *pn + (c-'0');
+	 *pn *= sign;
+	 if (c != EOF)
+	 	ungetch(c);
+	 return c == 0 ? -1 : c;
 }

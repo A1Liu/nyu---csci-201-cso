@@ -12,8 +12,27 @@ lower case.
 upper case.
 
 */
+#include <stdio.h>
+
+char upper(char c);
+char lower(char c);
 
 int main(int argc, char *argv[argc]) {
-
+	while( (argc = getchar()) != '\n' ) {
+		if (argc >= 'A' && argc <= 'Z')
+			putchar(lower(argc));
+		else if (argc >= 'a' && argc <= 'z')
+			putchar(upper(argc));
+		else
+			putchar(argc);
+	}
 	return 0;
+}
+
+char upper(char c) {
+	return c - 'a' + 'A';
+}
+
+char lower(char c) {
+	return c - 'A' + 'a';
 }

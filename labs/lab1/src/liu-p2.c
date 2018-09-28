@@ -1,15 +1,3 @@
-/*
-Write a main program that takes two command-line arguments,
-`lo` and `hi`. If `lo > hi`, `main()` prints an appropriate error message and terminates.
- Assuming `lo <= hi`, `main()` calls `isPrime(x)` for each `lo <= x <= hi`. For each *x*,
- `main()` prints one line which states either:
-* *x* is invalid
-* *x* is prime
-* *x* is not prime
-
-(You don't print a literal 'x' but instead the value of *x*).
-
-*/
 #include <stdio.h>
 #include <ctype.h>
 
@@ -68,7 +56,7 @@ short parseInt(int *data,char *str) {
 	else if (current != '+') return 0;
 
 	// Loop through the rest
-	for ( ; (current = *(++str)) && ( success = isdigit(current) ); ) {
+	for ( ; (current = *(++str))/*!='\0'*/ && ( success = isdigit(current) ); ) {
 		*data = *data * 10 + (current - '0');
 	}
 	*data *= sign;
