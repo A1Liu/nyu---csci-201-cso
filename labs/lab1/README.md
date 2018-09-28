@@ -1,4 +1,4 @@
-# Lab 1 Simple C Programs
+# Lab 1: Simple C Programs
 This lab consists of simple programs in C, meant to test fundamental concepts like parsing command line arguments, doing basic operations, control flow, and standard input/output.
 
 ## Description of files

@@ -2,7 +2,8 @@ import os
 from os.path import join,dirname,abspath
 import argparse
 
-labname = 'lab name'
+labnum = 0
+labdesc = ''
 
 README = 'README.md'
 ASSIGN = 'assign.md'
@@ -25,17 +26,20 @@ def mkfile(file, lines, dirname = None):
 	file.close()
 
 def format_line(string):
-	global labname
+	global labnum,labdesc
 	return string  \
-		.replace('[labname]',labname.capitalize())
+		.replace('[labnum]',labnum) \
+		.replace('[labdesc]',labdesc)
 
 parser = argparse.ArgumentParser()
-parser.add_argument('labname',default = labname,nargs='?')
+parser.add_argument('labnum',default = labnum,nargs='?')
+parser.add_argument('-desc',default = labdesc)
 args = parser.parse_args()
-labname = args.labname
+labnum = args.labnum
+labdesc = args.desc
 
 filedir = dirname(abspath(__file__))
-labdir = join(filedir,labname.replace(' ',''))
+labdir = join(filedir,'lab'+labnum)
 srcdir = join(labdir,'src')
 tempdir = join(filedir,TEMPLATE)
 
