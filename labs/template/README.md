@@ -1,4 +1,4 @@
-# Name of Lab
+# [labname]
 Short description of lab
 
 ## Description of files
