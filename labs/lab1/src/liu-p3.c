@@ -13,12 +13,13 @@ upper case.
 
 */
 #include <stdio.h>
+#define END_CHAR '\n'
 
 char upper(char c);
 char lower(char c);
 
 int main(int argc, char *argv[argc]) {
-	while( (argc = getchar()) != '\n' ) {
+	while( (argc = getchar()) != END_CHAR ) {
 		if (argc >= 'A' && argc <= 'Z')
 			putchar(lower(argc));
 		else if (argc >= 'a' && argc <= 'z')

@@ -3,6 +3,7 @@
 #define ARGCOUNT 2
 #define ERROR_CODE 2
 #define BUFSIZE 100
+#define END_CHAR '\n'
 char buf[BUFSIZE];
 int  bufp = 0;
 
@@ -61,7 +62,7 @@ int getint(int *pn) {//Returns 0 if there was a failure, or the character that e
 	int c, sign;
 	while (isspace(c=getch())) ;
 
-	if (!isdigit(c) && c!='\n' && c!='+' && c!='-') {//Change back to EOF
+	if (!isdigit(c) && c!=END_CHAR && c!='+' && c!='-') {//Change back to EOF
 		ungetch(c);
 		return 0;
 	}
@@ -72,7 +73,7 @@ int getint(int *pn) {//Returns 0 if there was a failure, or the character that e
 	for (*pn = 0; isdigit(c); c=getch())
 		*pn = 10 * *pn + (c-'0');
 	*pn *= sign;
-	if (c != '\n')//Change back to EOF
+	if (c != END_CHAR)//Change back to EOF
 		ungetch(c);
 	return c == 0 ? -1 : c;
 }
