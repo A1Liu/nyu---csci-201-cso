@@ -10,7 +10,7 @@ int  getch(void);
 void ungetch(int);
 int getint(int *pn);
 short parseInts(int argc, char *argv[argc], int vars[argc-1]);
-short parseInt(int *data, char *str);
+short parseInt(int *data, char *str);//Parse a string that also is an integer
 
 int main() {
 	char *a = "1234223";
@@ -24,30 +24,30 @@ short parseInts(int argc,char *argv[argc-1], int vars[argc]) {//argc and argv ar
 	//vals stores the values
 	//returns 1 if successful and 0 if failed
 	short success = 0;
-	for (int data = --argc; argc > 0 && ( success = parseInt( &data, argv[argc]) ); (vars[--argc] = data) );
+	for (int data = --argc;
+		argc > 0 && ( success = parseInt( &data, argv[argc]) ) ;
+		(vars[--argc] = data) );
 	return success;
 }
 
-int getch(void) {
-	return (bufp>0) ? buf[--bufp] : getchar();
-}
+int getch(void) {return (bufp>0) ? buf[--bufp] : getchar();}
 
 void ungetch(int c) {
-	if (bufp >= BUFSIZE)
-		printf("ungetch: too many chars\n");
-	else
-		buf[bufp++] = c;
+	if (bufp >= BUFSIZE) printf("ungetch: too many chars, '%c' ignored\n",c);
+	else buf[bufp++] = c;
 }
 
 int getint(int *pn) {// pn holds the data
-	int c, sign;
+	int c;
 	while (isspace(c=getch())) ; // Move to first non-space character
-	if (!isdigit(c) && c!=EOF && c!='+' && c!='-') {// If we're getting something that's a letter or something weird, put it back and return 0
+	if (c == EOF) return 0;
+
+	if (!isdigit(c) && c!='+' && c!='-') {// If we're getting something that's a letter or something weird, put it back and return 0
 		ungetch(c);
 		return 0;
 	}
 
-	sign = (c=='-') ? -1 : 1; // Whether to be negative or positive
+	int sign = (c=='-') ? -1 : 1; // Whether to be negative or positive
 	if (c=='+' || c=='-') {
 		c = getch();
 		if (!isdigit(c)) {
@@ -62,7 +62,7 @@ int getint(int *pn) {// pn holds the data
 	 *pn *= sign;
 	 if (c != EOF)
 	 	ungetch(c);
-	 return c == 0 ? -1 : c;
+	 return 1;
 }
 
 short parseInt(int *data,char *str) {//For strings
@@ -77,8 +77,8 @@ short parseInt(int *data,char *str) {//For strings
 	else if (current != '+') return 0;
 
 	// Loop through the rest
-	for ( ; (current = *(++str)) && ( success = isdigit(current) ); ) {
-		*data = *data * 10 + (current - '0');
+	for ( ; (current = *(++str)) && ( success = isdigit(current) && *data > -1 ); ) {
+		*data = *data * 10 + (current - '0'); // *data > -1 checks to make sure the int didn't wrap around
 	}
 	*data *= sign;
 	return success;//returns 1 for successful and 0 for failed
