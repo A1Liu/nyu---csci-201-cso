@@ -67,7 +67,7 @@ Write the following C function:
 void sortInt(int n, int A[n]) {
    // This routine sorts the array A.
    // Since arrays are passed to functions as a pointers, you do not
-   // need the pointer trick we did in class for bad_swap in 6.2.
+   // need the pointer trick we did in class for bad_swap in 5.2.
 }
 ```
 
