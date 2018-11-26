@@ -1,7 +1,7 @@
-# Part 2 - Basics
+## Part 2 - Basics
 This chapter corresponds to chapter 2 in "The C Programming Language" 2nd Edition by Kernighan, and sections of lectures 2 and 3 in the notes.
 
-## Primitive Data Types
+### Primitive Data Types
 C has very few primitive data types:
 
 |Name|Example|Description|
@@ -21,10 +21,10 @@ It also has a few qualifiers that affect the size of these types in memory:
 |unsigned|int,char|Ints can't be negative, char goes from 0 to 255|
 
 
-### Machine-Dependent Features of Primitives
+#### Machine-Dependent Features of Primitives
 Size of int, long, and short.
 
-## Constants and Variables
+### Constants and Variables
 Variables hold values.
 
 x is an lvalue (address or location in memory) -- object that can store something. x++ is an rvalue (right of the equal sign). It has a value but you can't put a value into it.
@@ -42,16 +42,16 @@ int main() {
 }
 ```
 
-## Basic Operators
+### Basic Operators
 
 
 
-### More Operators
+#### More Operators
 
 #### Addresses vs Values
 
 
-### Precedence
+#### Precedence
 
 |Precedence|Operator|Description|Associativity|
 |-|-|-|-|
