@@ -1,3 +1,6 @@
+#
+CSD\ Class\ Notes_files/
+
 # Prerequisites
 *.d
 
@@ -56,3 +59,6 @@ dkms.conf
 
 # Eclipse project file
 .project
+
+# Secret file
+*.pdf
