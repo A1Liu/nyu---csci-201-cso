@@ -6,10 +6,23 @@
 //   tab -en   # performs like entab()
 //   tab -de   # performs like detab()
 #include <string.h>
+#include <stdio.h>
 #define ENTAB_ARG "-en"
 #define DETAB_ARG "-de"
 
-int tab(char s[], char t[], char * arg) {
+void detab(char s[], char t[]);
+void entab(char s[], char t[]);
+int tab(char s[], char t[], char *arg);
+
+int main(int argc, char *argv[argc]) {
+	char * t = "q2341235qew\thgv";
+	char s[20];
+	tab(s,t,argv[1]);
+	printf("%s\n",s);
+	return 0;
+}
+
+int tab(char s[], char t[], char *arg) {
 	if (strcmp(arg,ENTAB_ARG) == 0) {
 		entab(s,t);
 		return 1;
@@ -54,6 +67,5 @@ void entab(char s[], char t[]) {
     else
     	s[si++] = value;
     }
-  }
   s[si] = '\0';
 }

@@ -30,7 +30,9 @@ The [*utils* folder](utils/) contains projects and files that I reuse often, i.e
 * [*The C Programming Language*][link3] - Link to a PDF of the book "The C Programming Language" by Kernighan
 * [Markdown Resource][link4] - The wiki that I used to learn Markdown when making this repository
 * [Operator Order][link5] - Operators
-* [Other Lecture Section][link6] - Another lecture section for CSCI - 201.
+* [Other Lecture Section][link6] - Another lecture section for CSCI 201
+* [Prof. Z's Lecture Section][link7] - Professor Z's Lecture Section for CSCI 201
+* [Compiler Explorer][link8] - Translates compiled code so that you can read the assembly
 
 [link1]: https://cs.nyu.edu/~gottlieb/courses/cso/
 [link2]: https://cs.nyu.edu/~gottlieb/courses/cso/class-notes.html
@@ -38,3 +40,5 @@ The [*utils* folder](utils/) contains projects and files that I reuse often, i.e
 [link4]: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 [link5]: https://en.cppreference.com/w/c/language/operator_precedence
 [link6]: https://cs.nyu.edu/courses/spring17/CSCI-UA.0201-001/
+[link7]: https://cs.nyu.edu/courses/fall18/CSCI-UA.0201-001/
+[link8]: https://godbolt.org/

@@ -11,6 +11,7 @@ void ungetch(int);
 int getint(int *pn);
 short parseInts(int argc, char *argv[argc], int vars[argc-1]);
 short parseInt(int *data, char *str);//Parse a string that also is an integer
+char *nexttok(char *c,int *size); // Get the next token
 
 int main() {
 	char *a = "1234223";
@@ -18,6 +19,17 @@ int main() {
 	int suc = parseInt(&d,a);
 	printf("%d %c\n%s\n",d,*a,suc ? "Success" : "Fail");
 	return 0;
+}
+
+char *nexttok(char *c,int *size) {
+	for (bufi = 0; (*c = getchar()) != EOF && isspace(*c) ; ) ;
+	buf[bufi++] = *c;
+	for ( ; (*c = getchar()) != EOF && !isspace(*c) ; buf[bufi++] = *c) ;
+	buf[bufi] = '\0';
+	str = malloc(sizeof(char)* (bufi+1) );
+	strcpy(str,buf);
+	*size = bufi;
+	return str;
 }
 
 short parseInts(int argc,char *argv[argc-1], int vars[argc]) {//argc and argv are same values as from command line
